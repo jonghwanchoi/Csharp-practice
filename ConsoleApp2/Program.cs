@@ -1,4 +1,5 @@
 ﻿using System;
+using Chap5library;
 
 namespace Chap4
 {
@@ -6,7 +7,8 @@ namespace Chap4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IfElse ifElse = new IfElse();
+            ifElse.exam();
         }
     }
 }
