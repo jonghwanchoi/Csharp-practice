@@ -7,9 +7,15 @@ namespace Chap3
     {
         static void Main(string[] args)
         {
-            IntegralTypes integralTypes = new IntegralTypes();
-            integralTypes.exam1();
-            Console.WriteLine("Hello World!");
+            /*ObjectTypes objectTypes = new ObjectTypes();
+            BoxingUnboxing boxingUnboxing = new BoxingUnboxing();
+
+            objectTypes.exam();
+            boxingUnboxing.Exam();*/
+
+            NullableTypes nullableType = new NullableTypes();
+            nullableType.exam();
+
         }
     }
 }

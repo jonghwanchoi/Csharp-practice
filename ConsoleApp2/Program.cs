@@ -7,8 +7,11 @@ namespace Chap4
     {
         static void Main(string[] args)
         {
-            IfElse ifElse = new IfElse();
-            ifElse.exam();
+            /* IfElse ifElse = new IfElse();
+             ifElse.exam();*/
+
+            IfIfexam ifIfexam = new IfIfexam();
+            ifIfexam.exam();
         }
     }
 }
