@@ -1,17 +1,15 @@
 ﻿using System;
 using Chap5library;
 
-namespace Chap4
+namespace Chap5
 {
     class Program
     {
         static void Main(string[] args)
         {
-            /* IfElse ifElse = new IfElse();
-             ifElse.exam();*/
-
-            IfIfexam ifIfexam = new IfIfexam();
-            ifIfexam.exam();
         }
+
+
+
     }
 }

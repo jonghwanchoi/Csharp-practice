@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap3", "ConsoleApp1\Chap3.csproj", "{6683C15D-9CB9-49D7-9B31-FBA99E7E18EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap3", "ConsoleApp1\Chap3.csproj", "{6683C15D-9CB9-49D7-9B31-FBA99E7E18EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap5", "ConsoleApp2\Chap5.csproj", "{68D20284-84DA-4A3D-A71C-7D2F50CD90E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap5", "ConsoleApp2\Chap5.csproj", "{68D20284-84DA-4A3D-A71C-7D2F50CD90E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap3library", "Chap3library\Chap3library.csproj", "{04CE99C8-D63F-456D-97D5-77F668960C13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap3library", "Chap3library\Chap3library.csproj", "{04CE99C8-D63F-456D-97D5-77F668960C13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap5library", "Chap5library\Chap5library.csproj", "{8D4A6A82-BCC4-4B99-B7C9-DB9C160FA93C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chap5library", "Chap5library\Chap5library.csproj", "{8D4A6A82-BCC4-4B99-B7C9-DB9C160FA93C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap6", "Chap6\Chap6.csproj", "{C18C25EB-3B05-4F79-9FFA-BCFFEAA4AF98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap6library", "Chap6library\Chap6library.csproj", "{DA82651E-77C0-4E48-A593-7045944F29BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap7", "Chap7\Chap7.csproj", "{BFEC9948-EA25-4674-B192-935DB53C2004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap7library", "Chap7library\Chap7library.csproj", "{F8967783-7F0A-4544-9A8B-3CC00B8069BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{8D4A6A82-BCC4-4B99-B7C9-DB9C160FA93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D4A6A82-BCC4-4B99-B7C9-DB9C160FA93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D4A6A82-BCC4-4B99-B7C9-DB9C160FA93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18C25EB-3B05-4F79-9FFA-BCFFEAA4AF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18C25EB-3B05-4F79-9FFA-BCFFEAA4AF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18C25EB-3B05-4F79-9FFA-BCFFEAA4AF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18C25EB-3B05-4F79-9FFA-BCFFEAA4AF98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA82651E-77C0-4E48-A593-7045944F29BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA82651E-77C0-4E48-A593-7045944F29BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA82651E-77C0-4E48-A593-7045944F29BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA82651E-77C0-4E48-A593-7045944F29BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFEC9948-EA25-4674-B192-935DB53C2004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFEC9948-EA25-4674-B192-935DB53C2004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFEC9948-EA25-4674-B192-935DB53C2004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFEC9948-EA25-4674-B192-935DB53C2004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8967783-7F0A-4544-9A8B-3CC00B8069BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8967783-7F0A-4544-9A8B-3CC00B8069BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8967783-7F0A-4544-9A8B-3CC00B8069BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8967783-7F0A-4544-9A8B-3CC00B8069BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
