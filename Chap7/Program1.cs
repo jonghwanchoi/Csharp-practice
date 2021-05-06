@@ -35,15 +35,117 @@ namespace Chap7
             nero.exam();
             Console.WriteLine($"{nero.Name} : {nero.Color}");*/
 
-            Console.WriteLine($"StaticField.count : {StaticField.count} ");
+            /*  Thiskeyword pooh = new Thiskeyword();
+              pooh.SetName("pooh");
+              pooh.SetPosition("Waiter");
+              Console.WriteLine($"{pooh.GetName()} {pooh.GetPosition()}");
 
-            new ClassA();
-            new ClassA();
-            new ClassB();
-            new ClassB();
+              Thiskeyword tigger = new Thiskeyword();
+              tigger.SetName("Tigger");
+              tigger.SetPosition("Cleaner");
+              Console.WriteLine($"{tigger.GetName()} {tigger.GetPosition()}");
 
-            Console.WriteLine($"StaticField.count : {StaticField.count}");
+              ThisConstructor a = new ThisConstructor();
+              a.PrintFields();
+              Console.WriteLine();
 
-        }
+              ThisConstructor b = new ThisConstructor(1);
+              b.PrintFields();
+              Console.WriteLine();
+
+              ThisConstructor c = new ThisConstructor(10, 20);
+              c.PrintFields();*/
+
+            /*try
+            {
+                AccessModifier heater = new AccessModifier();
+                heater.SetTemperature(20);
+                heater.TurnOnWater();
+
+                heater.SetTemperature(-2);
+                heater.TurnOnWater();
+
+                heater.SetTemperature(50);
+                heater.TurnOnWater();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+            Base a = new Base("a");
+            a.BaseMethod();
+
+            Derived b = new Derived("b");
+            b.BaseMethod();
+            b.DerivedMethod();*/
+
+            /*Mammal mammal = new Dog();
+            Dog dog;
+
+            if (mammal is Dog)
+            {
+                dog = (Dog)mammal;
+                dog.Bark();
+            }
+
+            Mammal mammal2 = new Cat();
+            Cat cat = mammal2 as Cat;
+            if(cat != null)
+            {
+                cat.Meow();
+            }
+
+            Cat cat2 = mammal as Cat;
+            if(cat2 != null)
+            {
+                cat2.Meow();
+            }
+            else
+            {
+                Console.WriteLine("cat is not a Cat");
+            }*/
+
+            /*Console.WriteLine("Creating ArmorSuite...");
+            Armorsuite armorsuite = new Armorsuite();
+            armorsuite.Initialize();
+
+            Console.WriteLine("\nCreating IronMan...");
+            Armorsuite ironman = new IronMan();
+            ironman.Initialize();
+
+            Console.WriteLine("\nCreating WarMachine...");
+            Armorsuite warmachine = new WarMachine();
+            warmachine.Initialize();*/
+
+            /*Base1 baseObj = new Base1();
+            baseObj.MyMethod();
+
+            Derived1 derivedObj = new Derived1();
+            derivedObj.MyMethod();
+
+            Base1 baseOrDerived = new Derived1();
+            baseOrDerived.MyMethod();*/
+            
+            // 명명되지 않은 튜플
+            var a = ("슈퍼맨", 9999);
+            Console.WriteLine($"{a.Item1} {a.Item2}");
+
+            // 명명된 튜플
+            var b = (Name: "박상현", Age: 17);
+            Console.WriteLine($"{b.Name} {b.Age}");
+
+            // 분해
+            var (name, age) = b;
+            Console.WriteLine($"{name} {age}");
+
+            // 분해2
+            var (name2, age2) = ("박문수", 34);
+            Console.WriteLine($"{name2} {age2}");
+
+            // 명명된 튜플 = 명명되지 않은 튜플
+            b = a;
+            Console.WriteLine($"{b.Name} {b.Age}");
+        }//end
     }
 }
