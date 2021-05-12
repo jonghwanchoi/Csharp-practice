@@ -30,21 +30,21 @@ namespace Chap16library
         }
 
         [Test]
-        public string PrintRecord()
+        public string Record()
         {
             Console.WriteLine("Goals : 17, Assists : 10");
             Console.WriteLine();
 
-            return "Goals : 17, Assists : 10";
+            return "[Goals] : 17 / [Assists] : 10";
         }
 
         [Test]
-        public string PrintInfo()
+        public string Info()
         {
             Console.WriteLine("Age : 30, BackNumber : 7");
             Console.WriteLine();
 
-            return "Age : 30, BackNumber : 7";
+            return "[Age] : 30 / [BackNumber] : 7";
         }
      
         [Test]
@@ -53,7 +53,7 @@ namespace Chap16library
             this.name = name;
             this.phone = phone;
 
-            return "Test " + name + ", " + phone;
+            return "[Test] : " + name + " / " + phone;
         }
 
         public string Name

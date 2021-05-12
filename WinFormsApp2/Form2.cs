@@ -99,10 +99,6 @@ namespace WinFormsApp2
             tbList[0] = paramBox1.Text;
             tbList[1] = paramBox2.Text;
 
-            //파라미터 입력박스 초기화
-            paramBox1.Text = "";
-            paramBox2.Text = "";
-
             Button btn = sender as Button; //현재 버튼 객체
             string method = btn.Text; //버튼의 Text값==method 이름
 
@@ -115,17 +111,30 @@ namespace WinFormsApp2
             {
                 if (tbList[0] != "" && tbList[1] != "")
                 {
+
                     paramethres = new string[arguments.Length];
                     for (int i = 0; i < arguments.Length; i++)
                     {
                         paramethres[i] = tbList[i];
                     }
+                    //파라미터 입력박스 초기화
+                    paramBox1.Text = "";
+                    paramBox2.Text = "";
                 }
                 else 
                 {
+                    paramBox1.Enabled = true;
+                    paramBox2.Enabled = true;
                     MessageBox.Show("파라미터 값을 입력하세요!!", "알림 메세지", default, MessageBoxIcon.Exclamation);
                     return;
                 }
+            }
+            else 
+            {
+                paramBox1.Enabled = false;
+                paramBox2.Enabled = false;
+                paramBox1.Text = "";
+                paramBox2.Text = "";
             }
             //동적으로 생성한 인스턴스에서 선택한 메소드 호출(반환값 저장)
             var returnValue = methodInfos.Invoke(profile, paramethres);

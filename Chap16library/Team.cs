@@ -30,27 +30,27 @@ namespace Chap16library
         }
 
         [Test]
-        public string PrintRecord()
+        public string T_Record()
         {
             Console.WriteLine("Win : 16, Draw : 8, Lose : 11");
             Console.WriteLine();
-            return "Win : 16, Draw : 8, Lose : 11";
+            return "[Win] : 16 / [Draw] : 8 / [Lose] : 11";
         }
         [Test]
-        public string PrintInfo()
+        public string T_Info()
         {
             Console.WriteLine("Owner : Joe Lewis, Coach : Vacant");
             Console.WriteLine();
-            return "Owner: Joe Lewis, Coach : Vacant";
+            return "[Owner] : Joe Lewis / [Coach] : Vacant";
         }
 
         [Test]
-        public string Test_1(string name, string location)
+        public string Test_T(string name, string location)
         {
             this.name = name;
             this.location = location;
 
-            return "Test1 " + name + ", " + location;
+            return "[Test_T] : " + name + " / " + location;
         }
 
         public string Name
