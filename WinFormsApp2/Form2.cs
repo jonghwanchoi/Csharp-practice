@@ -25,8 +25,13 @@ namespace WinFormsApp2
         }
         private void listBox_getType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            listBox_getMethod.Items.Clear(); //클래스를 선택할때마다 기존에 쓰여진 Text 제거 (갱신용)
-            resultBox.Text = "";
+            if(listBox_getMethod.Items.Count > 0)
+            {
+                listBox_getMethod.Items.Clear(); //클래스를 선택할때마다 기존에 쓰여진 Text 제거 (갱신용)
+                resultBox.Text = "";
+                paramBox1.Enabled = true;
+                paramBox2.Enabled = true;
+            }
             string selected = listBox_getType.SelectedItem.ToString(); //클래스 선택
             selectedTypeBox.Text = selected; //선택한 클래스 출력
 
