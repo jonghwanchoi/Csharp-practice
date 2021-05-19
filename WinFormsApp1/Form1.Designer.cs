@@ -60,8 +60,11 @@ namespace WinFormsApp1
             this.listBox_Methods.ItemHeight = 25;
             this.listBox_Methods.Items.AddRange(new object[] {
             "Test",
-            "PrintRecord",
-            "PrintInfo"});
+            "Record",
+            "Info",
+            "Test_T",
+            "T_Record",
+            "T_Info"});
             this.listBox_Methods.Location = new System.Drawing.Point(25, 105);
             this.listBox_Methods.Name = "listBox_Methods";
             this.listBox_Methods.Size = new System.Drawing.Size(283, 129);
